@@ -10,11 +10,11 @@ namespace McChannelPoints
         
         private IrcClient client;
         private Thread sender;
-
+        
         public Pinger(IrcClient client)
         {
             this.client = client;
-            
+            sender = new Thread(new ThreadStart(Run));
         }
 
         public void Start()
