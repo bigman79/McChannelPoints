@@ -25,7 +25,7 @@ namespace McChannelPoints
                 {
                     var jsItem = (JObject)JsonConvert.DeserializeObject(ef.Data);
                     Console.WriteLine(ws);
-                    Console.WriteLine(ef.Data);
+                    Console.WriteLine(jsItem);
                     if (jsItem.Property("type") != null)
                     {
                         switch (jsItem.Property("type").Value.ToString())

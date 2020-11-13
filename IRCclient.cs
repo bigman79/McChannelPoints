@@ -38,6 +38,7 @@ namespace McChannelPoints
         public string ReadMessage()
         {
             return inputStream.ReadLine();
+            
         }
 
         public void SendChatMessage(string message)
