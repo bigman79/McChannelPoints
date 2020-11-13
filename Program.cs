@@ -11,23 +11,26 @@ namespace McChannelPoints
         static void Main(string[] args)
         {
             IrcClient client = new IrcClient("irc.twitch.tv", 6667, _botName, _twitchOAuth, _broadcasterName);
-            
+
 
             var pinger = new Pinger(client);
             pinger.Start();
 
             while (true)
-            { 
+            {
                 var message = client.ReadMessage();
                 Console.WriteLine($"Message: {message}");
             }
         }
 
-        
-    
-    
-    
-    }}
+
+
+
+
+    }
+}
+
+  
 
 
    

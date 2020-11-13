@@ -16,11 +16,11 @@ namespace McChannelPoints
         public string TwitchID = "118542232";
         public string TwitchOath = "oj8pip257e3d79ujyymfqum7m7rfz1"
         private Thread sender;
-        public SocketPinger(WebSocket socket)
+        public void SocketPinger(We)
         {
-            this.socket = socket;
+            socket = this.socket;
             new Thread(new ThreadStart(Run)) { IsBackground = true }.Start();
-            ;
+            
         }
 
 
@@ -60,6 +60,7 @@ namespace McChannelPoints
                 try
                 {
                     socket.Send("{\"type\": \"PING\"}");
+                    Thread.Sleep(300000);
                 }
                 catch
                 {
