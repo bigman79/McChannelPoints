@@ -1,0 +1,15 @@
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.exe
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csprojAssemblyReference.cache
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.AssemblyInfoInputs.cache
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.AssemblyInfo.cs
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.deps.json
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.runtimeconfig.json
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.runtimeconfig.dev.json
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.dll
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.pdb
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\websocket-sharp.dll
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csproj.CoreCompileInputs.cache
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csproj.CopyComplete
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.dll
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.pdb
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.genruntimeconfig.cache
