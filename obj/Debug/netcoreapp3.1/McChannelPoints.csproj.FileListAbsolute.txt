@@ -13,3 +13,4 @@ C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.pdb
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.genruntimeconfig.cache
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csproj.CoreCompileInputs.cache
+C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
