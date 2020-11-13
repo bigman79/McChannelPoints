@@ -11,7 +11,7 @@ namespace McChannelPoints
         static void Main(string[] args)
         {
             IrcClient client = new IrcClient("irc.twitch.tv", 6667, _botName, _twitchOAuth, _broadcasterName);
-            SocketClient socket = new SocketClient();
+            Subcon sub = new Subcon();
             
 
             var pinger = new Pinger(client);

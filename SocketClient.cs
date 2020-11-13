@@ -38,7 +38,7 @@ namespace McChannelPoints
         public void SocketConnect(object sender, EventArgs e)
         {
             socket.Send("{\"type\": \"PING\"}");
-            socket.Send($"{{\"type\": \"LISTEN\", \"nonce\": \"ChannelPoints\", \"data\": {{\"topics\": [\"channel-points-channel-v1.{TwitchID}\",\"channel-bits-event-v2.{TwitchID}\",\"channel-subscribe-events-v1.{TwitchID}\"],\"auth_token\": \"{TwitchOath}\"}}}}");
+            socket.Send($"{{\"type\": \"LISTEN\", \"nonce\": \"ChannelPoints\", \"data\": {{\"topics\": [\"channel-points-channel-v1.{TwitchID}\",\"channel-bits-events-v2.{TwitchID}\",\"channel-subscribe-events-v1.{TwitchID}\"],\"auth_token\": \"{TwitchOath}\"}}}}");
             
         }
 
