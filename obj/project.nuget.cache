@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c82b3feMBN6Dc0NN2Y0Oc8krsos0+oX5Cc7J4lXw/rSiJhYXQNVeABojkw34qov37gsizCq9NstTl8Ssk83aTg==",
+  "dgSpecHash": "wdsSYGCYQzuBgZ2HfbYhVDXmRYBWNXIpTzUTExSg7nMgNZ45P+9F7RTyDATYBYqGJGEyNTUPv+TGVLTKwInrWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\treyo\\source\\repos\\McChannelPoints\\McChannelPoints\\McChannelPoints.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\treyo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\treyo\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
   "logs": []

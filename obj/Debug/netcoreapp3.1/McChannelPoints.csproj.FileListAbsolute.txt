@@ -8,7 +8,6 @@ C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.dll
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\McChannelPoints.pdb
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\bin\Debug\netcoreapp3.1\websocket-sharp.dll
-C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csproj.CoreCompileInputs.cache
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.csproj.CopyComplete
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.dll
 C:\Users\treyo\source\repos\McChannelPoints\McChannelPoints\obj\Debug\netcoreapp3.1\McChannelPoints.pdb
