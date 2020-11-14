@@ -15,14 +15,15 @@ using System.Threading;
 
 namespace McChannelPoints
 {
-
+    
 
     class SocketClient
     {
         WebSocket socket;
+        IrcClient client;
         public string TwitchID = "118542232";
         public string TwitchOath = "ilo3sj0v34g0x8sljrzdq5de81lm2j";
-        public object jsItem;
+        public string jsItem;
         public void SocketPinger(WebSocket socket)
         {
             socket = this.socket;
@@ -64,9 +65,10 @@ namespace McChannelPoints
 
         public void SocketMessage(object sender, MessageEventArgs ef)
         {
-            jsItem = (JObject)JsonConvert.DeserializeObject(ef.Data);
+            
             jsItem = ef.Data.Replace("\"{", "{").Replace("\\", string.Empty);
             Console.WriteLine(jsItem);
+                    
         }
 
         private void Run()
@@ -90,11 +92,12 @@ namespace McChannelPoints
 
 
         }
-        public static void EntitySpawn()
-        {
-            
-        }
-        
+
+      
+
+
+
+
 
 
 

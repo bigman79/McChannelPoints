@@ -12,7 +12,7 @@ namespace McChannelPoints
         {
             IrcClient client = new IrcClient("irc.twitch.tv", 6667, _botName, _twitchOAuth, _broadcasterName);
             SocketClient socket = new SocketClient();
-            
+            ChannelRedemptions channel = new ChannelRedemptions();
 
             var pinger = new Pinger(client);
             pinger.Start();
