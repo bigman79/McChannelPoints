@@ -7,7 +7,7 @@ namespace McChannelPoints
     {
         private static string _botName = "joto_is_here";
         private static string _broadcasterName = "joto_is_here";
-        private static string _twitchOAuth = "oauth:nv302ng19xbh8why4do4bwjhtsgzlc";
+        private static string _twitchOAuth = "oauth:ta5dgx7v6ktrj4jgv5n5tuzm9s14dg";
         static void Main(string[] args)
         {
             IrcClient client = new IrcClient("irc.twitch.tv", 6667, _botName, _twitchOAuth, _broadcasterName);

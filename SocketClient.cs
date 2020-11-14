@@ -90,8 +90,11 @@ namespace McChannelPoints
 
 
         }
-
-
+        public static void EntitySpawn()
+        {
+            
+        }
+        
 
 
 
