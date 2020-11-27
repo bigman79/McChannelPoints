@@ -7,7 +7,7 @@ namespace McChannelPoints
     {
         private static string _botName = "joto_is_here";
         private static string _broadcasterName = "joto_is_here";
-        private static string _twitchOAuth = "oauth:ta5dgx7v6ktrj4jgv5n5tuzm9s14dg";
+        private static string _twitchOAuth = "oauth:nrah0bytzjjadzvzpkrodcdz94g4va";
         static void Main(string[] args)
         {
             
@@ -18,6 +18,9 @@ namespace McChannelPoints
             var pinger = new Pinger(client);
             pinger.Start();
 
+           
+            
+            
             while (true)
             {
                 var message = client.ReadMessage();

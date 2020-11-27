@@ -71,6 +71,15 @@ namespace McChannelPoints
                     
         }
 
+        public void SocketReadEntitySpawn(object sender, MessageEventArgs ef)
+        {
+            if (jsItem.Contains("")) { }
+        }
+       
+
+
+      
+
         private void Run()
         {
             while (true)
