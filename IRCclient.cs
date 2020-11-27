@@ -43,7 +43,7 @@ namespace McChannelPoints
 
         public void SendChatMessage(string message)
         {
-            SendIrcMessage($":{userName}!{userName}@{userName}.tmi.twitch.tv PRIVMSG #{channel} :{message}");
+            SendIrcMessage($"{userName}.{channel} :{message}");
         }
     }
 }

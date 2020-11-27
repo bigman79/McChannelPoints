@@ -10,18 +10,21 @@ namespace McChannelPoints
         private static string _twitchOAuth = "oauth:ta5dgx7v6ktrj4jgv5n5tuzm9s14dg";
         static void Main(string[] args)
         {
+            
             IrcClient client = new IrcClient("irc.twitch.tv", 6667, _botName, _twitchOAuth, _broadcasterName);
             SocketClient socket = new SocketClient();
             ChannelRedemptions channel = new ChannelRedemptions();
-
+           
             var pinger = new Pinger(client);
             pinger.Start();
 
             while (true)
             {
                 var message = client.ReadMessage();
-                Console.WriteLine($"Message: {message}");
+                Console.WriteLine(message);
             }
+
+           
         }
 
 
